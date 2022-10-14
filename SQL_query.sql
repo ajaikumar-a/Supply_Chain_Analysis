@@ -6,21 +6,25 @@ RDBMS       : Microsoft SQL Server
 
 
 Description :- 
-• This is a SupplyChain SQL Project.
-• Orderlist table has 9000 rows.
-• Dataset is divided into 7 tables, one table for all orders that needs to be assigned a route – OrderList table, and 6 additional files specifying the problem and restrictions. 
-• For instance, the FreightRates table describes all available couriers. 
-• The weight gaps for each individual lane and rates associated. 
-• The PlantPorts table describes the allowed links between the warehouses and shipping ports in real world. 
-• Furthermore, the ProductsPerPlant table lists all supported warehouse-product combinations. 
-• The VmiCustomers lists all special cases, where warehouse is only allowed to support specific customer, while any other non-listed warehouse can supply any customer. 
-• The WhCapacities lists warehouse capacities measured in number of orders per day 
-• The WhCosts specifies the cost associated in storing the products in given warehouse measured in dollars per unit.
+In this project, we will try to answer some business questions by analyzing the supply chain data of a company.
 		
 	
 		
 Note :-
-• In this SQL file, we will be analysing the data in order to answer some business questions.
+In this SQL file, we will be analysing the data in order to answer some business questions.
+
+Dataset is divided into 7 tables.
+
+1) OrderList (orders that need to be assigned a route)
+2) FreightRates (all available couriers, the weight gaps for each lane, and rates associated)Â 
+3) PlantPorts (allowed links between the warehouses and shipping ports)
+4) ProductsPerPlant (all supported warehouse-product combinations)
+5) VmiCustomers (lists all special cases, where the warehouse is only allowed to support specific customers, while any other non-listed warehouse can supply any customer)
+6) WhCapacities (warehouse capacities measured in the number of orders per day)
+7) WhCosts (cost associated with storing the products in a given warehouse measured in dollars per unit)
+
+We will be answering the following questions:
+
 */
 
 
