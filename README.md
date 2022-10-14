@@ -2,6 +2,8 @@
 
 In this project, we will try to answer some business questions by analyzing the supply chain data of a company.
 
+Link to the data source 👉 https://bit.ly/3eDorUa
+
 Dataset is divided into 7 tables.
 
 1) _**OrderList**_ (orders that need to be assigned a route)
